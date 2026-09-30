@@ -1,0 +1,10 @@
+NEXT BROWSER - PHONE ONLY
+
+1. Upload this ZIP as ONE file to your empty GitHub repository.
+2. Do NOT extract it in GitHub.
+3. In GitHub, create:
+   .github/workflows/build-apk.yml
+4. Copy the contents of GITHUB-ACTIONS-WORKFLOW.yml.txt into that workflow file.
+5. Commit the workflow.
+6. Open Actions -> Build Next Browser APK -> Run workflow.
+7. After it finishes, open the run and download the NextBrowser-debug-apk artifact.
