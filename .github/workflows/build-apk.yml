@@ -45,8 +45,10 @@ jobs:
           gradle-version: "9.1.0"
 
       - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
-
+        uses: android-actions/setup-android@v4
+        with:
+          accept-android-sdk-licenses: true
+          packages: "platform-tools platforms;android-36 build-tools;36.0.0"
       - name: Install Android SDK
         run: |
           yes | sdkmanager --licenses
