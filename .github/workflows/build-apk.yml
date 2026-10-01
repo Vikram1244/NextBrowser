@@ -1,5 +1,4 @@
 name: Build Next Browser APK
-
 on:
   workflow_dispatch:
   push:
